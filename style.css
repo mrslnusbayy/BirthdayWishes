@@ -314,6 +314,15 @@ html {
   margin-bottom: 5px;
 }
 
+@media (max-width: 600px) {
+  .send-button {
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
 #status-text {
   transition: opacity 0.5s ease-in-out;
 }
